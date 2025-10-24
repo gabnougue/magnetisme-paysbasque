@@ -88,7 +88,7 @@ export default function HomePage() {
               <br />
               <br />
               Praticien en <strong>soins énergétiques</strong>, je vous accompagne au Pays Basque
-              (Bayonne, Biarritz, Saint-Jean-de-Luz, Anglet) dans votre démarche de guérison
+              (Bayonne, Biarritz, Saint-Jean-de-Luz, Anglet...) dans votre démarche de guérison
               et de bien-être. Spécialisé en <strong>magnétisme</strong>, <strong>trame</strong>,
               et <strong>kinésiologie</strong>, je vous aide à vous libérer de vos souffrances
               physiques et émotionnelles.
@@ -109,7 +109,7 @@ export default function HomePage() {
               </div>
             </div>
             <Button href="/qui-suis-je" variant="outline">
-              Découvrir mon parcours
+              En savoir plus
             </Button>
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function HomePage() {
       {/* Témoignages / Avis Google */}
       <Section background="primary-light">
         <SectionTitle center>
-          Ce que disent nos clients
+          Ils partagent leur expérience
         </SectionTitle>
         <SectionDescription center>
           Découvrez les avis authentiques de ceux qui ont bénéficié de mes soins énergétiques.

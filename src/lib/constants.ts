@@ -215,7 +215,7 @@ export const PRICING = [
   {
     id: 1,
     title: 'Séance individuelle',
-    price: 'XX€',
+    price: '50 €',
     duration: '1h',
     description: 'Séance de magnétisme et soins énergétiques personnalisés.',
     features: [
@@ -228,7 +228,7 @@ export const PRICING = [
   {
     id: 2,
     title: 'Séance à distance',
-    price: 'XX€',
+    price: '40 €',
     duration: '45min',
     description: 'Soins énergétiques à distance, tout aussi efficaces.',
     features: [
@@ -241,7 +241,7 @@ export const PRICING = [
   {
     id: 3,
     title: 'Séance pour animaux',
-    price: 'XX€',
+    price: '35 €',
     duration: '30-45min',
     description: 'Magnétothérapie pour vos compagnons à quatre pattes.',
     features: [
@@ -338,7 +338,7 @@ Je travaille fréquemment sur des troubles du sommeil, des coliques, de l'eczém
     id: 8,
     category: 'Pratique',
     question: 'Faites-vous des soins sur les animaux ?',
-    answer: `Oui, je pratique le magnétisme animalier sur tous types d'animaux : chiens, chats, chevaux, etc.
+    answer: `Oui, je pratique le magnétisme animalier sur tous types d'animaux : chiens, chats, etc.
 
 Les animaux sont très sensibles aux énergies et répondent généralement très bien aux soins. Je peux intervenir pour des problèmes physiques (douleurs, blessures) ou comportementaux (anxiété, agressivité, peurs).
 
@@ -350,9 +350,9 @@ Les séances peuvent se faire au cabinet, à votre domicile, ou à distance avec
     question: 'Quelle est la différence entre un magnétiseur et un énergéticien ?',
     answer: `Les termes "magnétiseur", "énergéticien" et "guérisseur" désignent souvent des pratiques similaires avec quelques nuances :
 
-- Le **magnétiseur** utilise principalement le magnétisme, l'énergie qui émane de ses mains
-- L'**énergéticien** travaille avec différentes formes d'énergies (magnétisme, reiki, soins énergétiques divers)
-- Le **guérisseur** est un terme traditionnel qui englobe différentes pratiques de soins naturels
+- Le magnétiseur utilise principalement le magnétisme, l'énergie qui émane de ses mains
+- L'énergéticien travaille avec différentes formes d'énergies (magnétisme, reiki, soins énergétiques divers)
+- Le guérisseur est un terme traditionnel qui englobe différentes pratiques de soins naturels
 
 Dans ma pratique, j'utilise plusieurs techniques complémentaires (magnétisme, trame, kinésiologie...) selon les besoins de chaque personne.`,
   },
@@ -368,9 +368,7 @@ Pour information, les séances de magnétisme ne sont généralement pas rembour
     id: 11,
     category: 'Tarifs',
     question: 'Puis-je annuler ou reporter un rendez-vous ?',
-    answer: `Oui, bien sûr. Je demande simplement de me prévenir au moins 24h à l'avance en cas d'empêchement, afin que je puisse proposer le créneau à une autre personne.
-
-Les annulations tardives ou absences non justifiées pourront faire l'objet d'une facturation.`,
+    answer: `Oui, bien sûr. Je demande simplement de me prévenir au moins 24h à l'avance en cas d'empêchement, afin que je puisse proposer le créneau à une autre personne.`,
   },
   {
     id: 12,

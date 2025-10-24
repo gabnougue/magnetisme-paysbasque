@@ -193,7 +193,7 @@ export function GoogleReviews({ placeId, maxReviews = 6 }: GoogleReviewsProps) {
         </a>
         {placeId && (
           <p className="text-sm text-gray-500 mt-4">
-            Vos avis Google nous aident à améliorer nos services
+            Vos avis Google m'aident à améliorer mes services
           </p>
         )}
       </div>

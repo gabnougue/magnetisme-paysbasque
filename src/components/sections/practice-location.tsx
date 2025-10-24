@@ -48,8 +48,7 @@ export default function PracticeLocation() {
               </p>
               <p>
                 Situé dans un cadre paisible, le cabinet offre un
-                environnement naturel et ressourçant, loin du tumulte
-                quotidien.
+                environnement naturel et ressourçant.
               </p>
             </div>
           </div>
