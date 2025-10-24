@@ -92,7 +92,7 @@ export function Section({
           style={{
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            backgroundPosition: 'center 33%',
             backgroundRepeat: 'no-repeat',
           }}
         />
