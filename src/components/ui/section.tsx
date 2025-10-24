@@ -84,14 +84,19 @@ export function Section({
     return (
       <section
         id={id}
-        className={cn('py-16 md:py-24 relative', className)}
-        style={{
-          backgroundImage: `url(${backgroundImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
-        }}
+        className={cn('py-16 md:py-24 relative overflow-hidden', className)}
       >
+        {/* Background image optimisée pour mobile */}
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `url(${backgroundImage})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}
+        />
+
         {/* Overlay sans blur */}
         <div className="absolute inset-0 bg-gradient-to-br from-primary-900/85 via-primary-800/80 to-primary-900/85"></div>
 
