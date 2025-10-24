@@ -5,14 +5,14 @@ export default function StructuredData() {
   const localBusinessSchema = {
     '@context': 'https://schema.org',
     '@type': 'MedicalBusiness',
-    '@id': process.env.NEXT_PUBLIC_SITE_URL || 'https://jm-magnetiseur-paysbasque.fr',
+    '@id': process.env.NEXT_PUBLIC_SITE_URL || 'https://magnetiseur-paysbasque.fr',
     name: SITE_INFO.name,
     alternateName: 'Jean-Michel Nougué-Lecocq Magnétiseur',
     description: SITE_INFO.description,
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://jm-magnetiseur-paysbasque.fr',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://magnetiseur-paysbasque.fr',
     telephone: SITE_INFO.phone,
     email: SITE_INFO.email,
-    image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://jm-magnetiseur-paysbasque.fr'}/images/jean-mi.jpg`,
+    image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://magnetiseur-paysbasque.fr'}/images/jean-mi.jpg`,
     priceRange: '€€',
     address: {
       '@type': 'PostalAddress',
@@ -99,7 +99,7 @@ export default function StructuredData() {
     name: SITE_INFO.name,
     jobTitle: 'Magnétiseur et Thérapeute Énergéticien',
     description: `Magnétiseur, guérisseur et thérapeute énergéticien au Pays Basque`,
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://jm-magnetiseur-paysbasque.fr',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://magnetiseur-paysbasque.fr',
     email: SITE_INFO.email,
     telephone: SITE_INFO.phone,
     address: {
@@ -123,12 +123,16 @@ export default function StructuredData() {
   };
 
   // Schema.org pour Organization
+  // Documentation Google : https://developers.google.com/search/docs/appearance/structured-data/organization?hl=fr
+  // Le logo doit être une URL HTTPS accessible publiquement pour apparaître dans les résultats Google
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: SITE_INFO.name,
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://jm-magnetiseur-paysbasque.fr',
-    logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://jm-magnetiseur-paysbasque.fr'}/images/jean-mi.jpg`,
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://magnetiseur-paysbasque.fr',
+    // Le logo sera lu par Google pour afficher le logo de l'organisation dans les résultats de recherche
+    // et le Knowledge Graph. L'image doit être accessible publiquement en HTTPS.
+    logo: 'https://magnetiseur-paysbasque.fr/logo.png',
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: SITE_INFO.phone,
@@ -153,7 +157,7 @@ export default function StructuredData() {
         '@type': 'ListItem',
         position: 1,
         name: 'Accueil',
-        item: process.env.NEXT_PUBLIC_SITE_URL || 'https://jm-magnetiseur-paysbasque.fr',
+        item: process.env.NEXT_PUBLIC_SITE_URL || 'https://magnetiseur-paysbasque.fr',
       },
     ],
   };
