@@ -39,7 +39,16 @@ export default function MentionsLegalesPage() {
           </p>
 
           <h2 className="text-2xl font-bold font-serif mb-4 text-gray-900">
-            2. Hébergement du site
+            2. Responsable de publication et développement
+          </h2>
+          <ul className="list-none text-gray-700 mb-8 space-y-2">
+            <li><strong>Nom :</strong> Gabin Nougué</li>
+            <li><strong>Email :</strong> <a href="mailto:gabnougue@gmail.com" className="text-primary-600 hover:text-primary-700">gabnougue@gmail.com</a></li>
+            <li><strong>Téléphone :</strong> <a href="tel:+33780374846" className="text-primary-600 hover:text-primary-700">+33 7 80 37 48 46</a></li>
+          </ul>
+
+          <h2 className="text-2xl font-bold font-serif mb-4 text-gray-900">
+            3. Hébergement du site
           </h2>
           <p className="text-gray-700 mb-8">
             Le site est hébergé par :<br />
@@ -50,7 +59,7 @@ export default function MentionsLegalesPage() {
           </p>
 
           <h2 className="text-2xl font-bold font-serif mb-4 text-gray-900">
-            3. Propriété intellectuelle
+            4. Propriété intellectuelle
           </h2>
           <p className="text-gray-700 mb-8">
             L'ensemble du contenu de ce site (textes, images, vidéos, logos, etc.) est la propriété exclusive de {SITE_INFO.name} ou de ses partenaires, sauf mention contraire.
@@ -60,7 +69,7 @@ export default function MentionsLegalesPage() {
           </p>
 
           <h2 className="text-2xl font-bold font-serif mb-4 text-gray-900">
-            4. Données personnelles
+            5. Données personnelles
           </h2>
           <p className="text-gray-700 mb-8">
             Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition aux données personnelles vous concernant.
@@ -78,14 +87,14 @@ export default function MentionsLegalesPage() {
           </p>
 
           <h2 className="text-2xl font-bold font-serif mb-4 text-gray-900">
-            5. Cookies
+            6. Cookies
           </h2>
           <p className="text-gray-700 mb-8">
             Ce site peut utiliser des cookies pour améliorer l'expérience utilisateur. Vous pouvez configurer votre navigateur pour refuser les cookies, mais certaines fonctionnalités du site pourraient être limitées.
           </p>
 
           <h2 className="text-2xl font-bold font-serif mb-4 text-gray-900">
-            6. Responsabilité
+            7. Responsabilité
           </h2>
           <p className="text-gray-700 mb-8">
             {SITE_INFO.name} s'efforce d'assurer l'exactitude et la mise à jour des informations diffusées sur ce site, mais ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition.
@@ -95,14 +104,14 @@ export default function MentionsLegalesPage() {
           </p>
 
           <h2 className="text-2xl font-bold font-serif mb-4 text-gray-900">
-            7. Liens hypertextes
+            8. Liens hypertextes
           </h2>
           <p className="text-gray-700 mb-8">
             Le site peut contenir des liens vers d'autres sites internet. {SITE_INFO.name} ne peut être tenu responsable du contenu de ces sites externes.
           </p>
 
           <h2 className="text-2xl font-bold font-serif mb-4 text-gray-900">
-            8. Droit applicable
+            9. Droit applicable
           </h2>
           <p className="text-gray-700 mb-8">
             Les présentes mentions légales sont régies par le droit français. En cas de litige, et après tentative de recherche d'une solution amiable, les tribunaux français seront seuls compétents.
