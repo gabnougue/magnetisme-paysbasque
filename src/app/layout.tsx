@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://jm-magnetiseur-paysbasque.fr',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://magnetiseur-paysbasque.fr',
     siteName: 'Jean-Michel Nougué-Lecocq - Magnétiseur Pays Basque',
     title: 'Magnétiseur Pays Basque - Jean-Michel Nougué-Lecocq | Saint-Pée-sur-Nivelle',
     description:
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: process.env.NEXT_PUBLIC_SITE_URL || 'https://jm-magnetiseur-paysbasque.fr',
+    canonical: process.env.NEXT_PUBLIC_SITE_URL || 'https://magnetiseur-paysbasque.fr',
   },
   verification: {
     google: 'votre-code-google-search-console', // À remplacer
