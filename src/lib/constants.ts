@@ -6,7 +6,7 @@ export const SITE_INFO = {
   name: 'Jean-Michel Nougué-Lecocq',
   title: 'Magnétiseur & Thérapeute Énergéticien à Saint-Pée-sur-Nivelle',
   description:
-    'Magnétiseur, guérisseur et thérapeute énergéticien au Pays Basque. Soins énergétiques, magnétisme, kinésiologie, trame. Séances en cabinet et à distance pour adultes, enfants et animaux.',
+    'Magnétiseur, guérisseur et thérapeute énergéticien au Pays Basque. Soins énergétiques, magnétisme, trame, méditation guidée. Séances en cabinet et à distance pour adultes, enfants et animaux.',
   location: 'Saint-Pée-sur-Nivelle',
   region: 'Pays Basque',
   department: 'Pyrénées-Atlantiques',
@@ -47,7 +47,7 @@ export const SERVICES = [
   {
     id: 4,
     title: 'Magnétisme animal',
-    description: 'Magnétothérapie sur chien, chat, etc...',
+    description: 'Magnétisme pour animaux sur chien, chat, etc...',
     icon: 'animal',
   },
 ];
@@ -63,7 +63,7 @@ export const SKILLS = [
 export const TECHNIQUES = [
   { name: 'Trame', id: 'trame' },
   { name: 'Magnétisme', id: 'magnetisme' },
-  { name: 'Kinésiologie', id: 'kinesiologie' },
+  { name: 'Méditation guidée en groupe', id: 'meditation-guidee' },
   { name: 'Référentiel de naissance', id: 'referentiel' },
   { name: 'Langage des oiseaux', id: 'langage-oiseaux' },
   { name: 'Exercices de visualisation', id: 'visualisation' },
@@ -106,22 +106,22 @@ Cette technique permet de soulager de nombreux maux physiques et psychiques en a
     forWho: 'Tous publics : adultes, enfants, bébés, animaux',
   },
   {
-    id: 'kinesiologie',
-    name: 'Kinésiologie',
-    shortDescription: 'Méthode psycho-corporelle utilisant le test musculaire',
-    fullDescription: `La kinésiologie est une technique psycho-corporelle qui utilise le test musculaire pour identifier les déséquilibres énergétiques et émotionnels. Elle permet d'accéder à la mémoire du corps et de libérer les blocages.
+    id: 'meditation-guidee',
+    name: 'Méditation guidée en groupe',
+    shortDescription: 'Séances collectives de méditation pour la détente et le bien-être',
+    fullDescription: `La méditation guidée en groupe est une pratique collective qui permet de se recentrer, de se détendre et de cultiver la paix intérieure. Dans un cadre bienveillant et sécurisant, je vous accompagne à travers des méditations guidées adaptées à tous les niveaux.
 
-Cette approche holistique prend en compte les dimensions physique, émotionnelle, mentale et énergétique de la personne pour favoriser un mieux-être global.`,
+Ces séances collectives favorisent la cohésion de groupe tout en permettant à chacun de vivre sa propre expérience intérieure. L'énergie du groupe amplifie les bienfaits de la pratique.`,
     benefits: [
-      'Gestion du stress et des émotions',
-      'Amélioration de la confiance en soi',
-      'Libération des blocages émotionnels',
-      'Accompagnement des troubles d\'apprentissage',
-      'Soutien dans les périodes de transition',
-      'Amélioration des performances',
+      'Réduction du stress et de l\'anxiété',
+      'Amélioration de la concentration',
+      'Développement de la présence et de la conscience',
+      'Renforcement du sentiment de paix intérieure',
+      'Partage d\'expérience en groupe bienveillant',
+      'Apprentissage de techniques méditatives',
     ],
-    duration: '1h à 1h30',
-    forWho: 'Adultes, adolescents, enfants',
+    duration: '1h',
+    forWho: 'Tous publics, débutants bienvenus',
   },
   {
     id: 'referentiel',
@@ -228,9 +228,9 @@ export const PRICING = [
   {
     id: 2,
     title: 'Séance à distance',
-    price: '40 €',
+    price: '50 € / 30 €',
     duration: '45min',
-    description: 'Soins énergétiques à distance, tout aussi efficaces.',
+    description: 'Soins énergétiques à distance, tout aussi efficaces. Première séance 50€ (anamnèse complète), séances suivantes 30€.',
     features: [
       'Soins énergétiques ciblés',
       'Échange téléphonique',
@@ -243,12 +243,25 @@ export const PRICING = [
     title: 'Séance pour animaux',
     price: '35 €',
     duration: '30-45min',
-    description: 'Magnétothérapie pour vos compagnons à quatre pattes.',
+    description: 'Magnétisme pour animaux, pour vos compagnons à quatre pattes.',
     features: [
       'Soins adaptés à l\'animal',
       'Apaisement et bien-être',
       'Conseils aux propriétaires',
       'Possibilité à distance',
+    ],
+  },
+  {
+    id: 4,
+    title: 'Séance de méditation guidée en groupe',
+    price: '15 €',
+    duration: '1h',
+    description: 'Méditation collective guidée pour la détente et le bien-être.',
+    features: [
+      'Séance en groupe bienveillant',
+      'Techniques de méditation guidée',
+      'Réduction du stress',
+      'Accessible à tous, débutants bienvenus',
     ],
   },
 ];
@@ -354,7 +367,7 @@ Les séances peuvent se faire au cabinet, à votre domicile, ou à distance avec
 - L'énergéticien travaille avec différentes formes d'énergies (magnétisme, reiki, soins énergétiques divers)
 - Le guérisseur est un terme traditionnel qui englobe différentes pratiques de soins naturels
 
-Dans ma pratique, j'utilise plusieurs techniques complémentaires (magnétisme, trame, kinésiologie...) selon les besoins de chaque personne.`,
+Dans ma pratique, j'utilise plusieurs techniques complémentaires (magnétisme, trame, méditation guidée...) selon les besoins de chaque personne.`,
   },
   {
     id: 10,
