@@ -81,7 +81,7 @@ export default function TarifsPage() {
             <div className="space-y-4 text-gray-700">
               <div>
                 <h4 className="font-bold mb-2">Modalités de paiement</h4>
-                <p>Espèces, chèque acceptés.</p>
+                <p>Espèces, chèques acceptés.</p>
               </div>
               <div>
                 <h4 className="font-bold mb-2">Annulation</h4>

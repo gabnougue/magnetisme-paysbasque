@@ -46,8 +46,8 @@ export default function HomePage() {
               au Pays Basque.
             </p>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Soins énergétiques par <strong>magnétisme</strong>, <strong>trame</strong>,
-              <strong> kinésiologie</strong> et autres techniques holistiques.
+              Soins par <strong>magnétisme</strong>, <strong>trame</strong>,
+              <strong> méditation</strong> et autres techniques holistiques.
               Séances en cabinet à Saint-Pée-sur-Nivelle et à distance.
               Adultes, enfants, animaux.
             </p>
@@ -90,7 +90,7 @@ export default function HomePage() {
               Praticien en <strong>soins énergétiques</strong>, je vous accompagne au Pays Basque
               (Bayonne, Biarritz, Saint-Jean-de-Luz, Anglet...) dans votre démarche de guérison
               et de bien-être. Spécialisé en <strong>magnétisme</strong>, <strong>trame</strong>,
-              et <strong>kinésiologie</strong>, je vous aide à vous libérer de vos souffrances
+              et <strong>méditation</strong>, je vous aide à vous libérer de vos souffrances
               physiques et émotionnelles.
             </SectionDescription>
             <div className="mb-6">
