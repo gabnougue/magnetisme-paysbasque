@@ -131,8 +131,8 @@ export default function StructuredData() {
     name: SITE_INFO.name,
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://magnetiseur-paysbasque.fr',
     // Le logo sera lu par Google pour afficher le logo de l'organisation dans les résultats de recherche
-    // et le Knowledge Graph. L'image doit être accessible publiquement en HTTPS.
-    logo: 'https://magnetiseur-paysbasque.fr/logo.svg',
+    // et le Knowledge Graph. Format PNG 512x512px recommandé par Google.
+    logo: 'https://magnetiseur-paysbasque.fr/logo.png',
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: SITE_INFO.phone,
