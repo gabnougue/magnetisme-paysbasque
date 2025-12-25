@@ -49,6 +49,14 @@ export const metadata: Metadata = {
     title: 'Magnétiseur Pays Basque - Jean-Michel Nougué-Lecocq | Saint-Pée-sur-Nivelle',
     description:
       'Magnétiseur et guérisseur au Pays Basque. Soins énergétiques, magnétisme, trame. Séances en cabinet à Saint-Pée-sur-Nivelle et à distance.',
+    images: [
+      {
+        url: 'https://magnetiseur-paysbasque.fr/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Jean-Michel Nougué-Lecocq - Magnétiseur Pays Basque',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
