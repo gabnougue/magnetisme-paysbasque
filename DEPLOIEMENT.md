@@ -57,7 +57,7 @@ re_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 **CONTACT_EMAIL**
 ```
-gabnougue@gmail.com
+votre-email@example.com
 ```
 
 **GOOGLE_MAPS_API_KEY**
