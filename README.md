@@ -5,8 +5,9 @@ Site vitrine réalisé pour un praticien en magnétisme et soins énergétiques 
 professionnelle, référencée localement, permettant aux visiteurs de comprendre les
 prestations proposées et de prendre contact directement.
 
-<!-- CAPTURE D'ÉCRAN : ajouter ici une image du site (ex: ![Aperçu](docs/screenshot.png)) -->
-<!-- SITE EN LIGNE : ajouter ici le lien vers le site en production -->
+![Page d'accueil du site](docs/screenshot.png)
+
+**Site en ligne :** <https://magnetiseur-paysbasque.fr/>
 
 ## Stack technique
 
