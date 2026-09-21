@@ -35,3 +35,29 @@ prestations proposées et de prendre contact directement.
 Hébergement sur **Vercel**, déploiement continu depuis la branche `main` du dépôt
 GitHub. Les clés d'API et l'adresse de contact sont fournies par les variables
 d'environnement Vercel (voir `.env.example` pour la liste attendue).
+
+## Organisation du code
+
+Tout le contenu éditorial du site (services, tarifs, techniques, FAQ, coordonnées)
+est centralisé dans `src/lib/constants.ts`, qui fait office de source unique :
+ajouter une prestation ou modifier un tarif ne demande aucune intervention dans
+les composants.
+
+Les composants sont répartis par rôle — `ui/` pour les briques réutilisables,
+`layout/` pour l'en-tête et le pied de page, `sections/` pour les blocs de page,
+`seo/` pour les données structurées.
+
+Deux routes d'API : `/api/contact` (validation Zod puis envoi via Resend) et
+`/api/google-reviews` (Google Places API v1, cache d'une heure, repli sur des
+témoignages statiques en cas d'échec).
+
+## Lancer le projet en local
+
+```bash
+npm install
+npm run dev     # http://localhost:3000
+npm run build   # build de production
+```
+
+Les clés d'API et l'adresse de contact se déclarent dans un fichier `.env.local`,
+dont `.env.example` liste les variables attendues.
